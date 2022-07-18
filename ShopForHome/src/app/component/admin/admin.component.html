@@ -1,0 +1,44 @@
+<div class="productcontainer">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">Product Id</th>
+        <th scope="col">Product Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Stock</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products; let i = index">
+        <td>{{i+1}}</td>
+        <td>{{product.productId}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+        <td>{{product.stock}}</td>
+    </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-success" routerLink="/admin/manage/products">Get All Products</button>
+</div>
+<div class="userscontainer">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Sr. No.</th>
+        <th scope="col">User Id</th>
+        <th scope="col">User Name</th>
+        <th scope="col">Role</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users; let i = index">
+        <td>{{i+1}}</td>
+        <td>{{user.userId}}</td>
+        <td>{{user.username}}</td>
+        <td>{{user.role}}</td>
+    </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-success" routerLink="/admin/manage/users">Get Users</button>
+</div>

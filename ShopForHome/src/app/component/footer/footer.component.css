@@ -1,0 +1,13 @@
+.container{
+  background-color: rgb(230, 226, 226);
+  margin-top: 20px;
+}
+#sfh{
+  width: 25px;
+  margin-right: 10px;
+}
+#footer{
+  background-color: black;
+  color: white;
+  padding: 20px ;
+}

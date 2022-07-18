@@ -1,0 +1,39 @@
+.form-control{
+  border-radius: 3px;
+  width: 600px;
+  margin-left: 20px;
+}
+a{
+ text-decoration: none;
+}
+
+.search-icon {
+  position: absolute;
+  z-index: 10;
+  right: 42%;
+  top: 20px;
+  color: blue;
+}
+
+.btn-admin{
+  float: right;
+  background-color:white;
+  color: rgb(18, 18, 19);
+  font-weight: bold;
+}
+
+.navbar{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#c1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#ee2c23, #f16421);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-primary{
+  background-color: black;
+  border-color: black;
+}
